@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toes</title>
+  <style>
+  /* Add CSS rules here! */
+  @media(max-width:450px){
+.blue{
+  width: 60px;
+  height:90px;
+  font-size:600%;
+  margin:5px;
+  padding:0px 20px 20px 15px;
+  background-color:#87CEEB;
+ }
+.flex{
+display:flex;
+flex-direction:row;
+  width:350px;
+}
+body:hover{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV5fdoukZumI9svFFkvgfz-707E-hJ-47g9Q&usqp=CAU");
+}
+div:hover{
+  background: linear-gradient(45deg, gray,white,red);
+}
+}
+@media(min-width:760px){
+  .blue{
+  width: 60px;
+  height:90px;
+  font-size:600%;
+  margin:5px;
+  padding:0px 20px 20px 15px;
+  background-color:#87CEEB;
+ }
+.flex{
+display:flex;
+flex-direction:row;
+  width:350px;
+}
+body:hover{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV5fdoukZumI9svFFkvgfz-707E-hJ-47g9Q&usqp=CAU");
+}
+div div div:hover{
+  background: linear-gradient(45deg, gray,white,red);
+}
+.j{
+  padding:800px 0px 0px 350px;
+}
+  
+}
+  </style>
+</head>
+<body>
+  <div class="j">
+  
+      <div class="flex">
+        <div class="blue">X</div>
+        <div class="blue"></div>
+        <div class="blue">O</div>
+      </div>
+  <div class="flex">
+        <div class="blue"></div>
+        <div class="blue" >X</div>
+        <div class="blue">O</div>
+  </div>
+  <div class="flex">
+    <div class="blue">X</div>
+    <div class="blue">O</div>
+    <div class="blue"></div>
+  </div>
+  </div>
+</body>
+</html>
